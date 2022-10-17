@@ -1,0 +1,109 @@
+.head1
+{
+    padding: 1em;
+    text-align: center;
+    background-color: seagreen;
+    color: white;
+    font-size: 30px;
+    border-bottom: 1px solid crimson;
+    padding-bottom: 2px;
+}
+.navhead
+{
+    text-align: right; text-emphasis-color: white;margin-right: 0pt; font-size: 20px;
+}
+
+.navhead a{
+    color: beige;
+}
+a:hover{ background-color: cadetblue; font-size: 25px;}
+.hero-image
+{
+    background-image: url("./images/zebra.jpg");
+    height: 95vh; background-repeat: no-repeat; background-size: cover;
+}
+
+.hero-text
+{
+    text-align: center; position:absolute; top: 50%; left: 50%; transform: translate(122,111); 
+    color: whitesmoke;
+}
+
+.hero-text button:hover
+{
+    background-color: burlywood; color: blanchedalmond;
+}
+
+.btnJoin
+{
+    display: inline-block; border-radius: 4px; background-color: orangered; border:thick;
+    color: whitesmoke !important;
+    text-align: center; font-size: 10px; padding: auto; width: 120px;
+    transition: all 0.5s; cursor: pointer; margin: 5px;
+}
+.paper-box-container
+{
+    display: flex; flex-direction: row; background-color: rgb(209, 169, 129); text-align: center;
+    justify-content: space-evenly; flex-wrap: wrap;
+}
+
+.paper-box-row
+{
+    display: flex; flex-direction: column; background-color: bisque; text-align: center;
+    justify-content: space-evenly; flex-wrap: wrap;
+}
+
+.paper-box-row h1{
+    font-size:  1em; margin: 1em auto; text-align: center;
+}
+
+.paper
+{
+    height: 150px; width: 100px; background-color:  whitesmoke; text-align: center; box-shadow:  0 0 25px rgb(129, 94, 129);
+    padding:  1em; margin:  1em ; border-radius: 10px;
+  
+}
+
+.flex-img
+{
+    height: 80px; width: 80px; margin: 0%; padding: 0%; border: 1px solid blue; border-radius: 10px;
+    opacity: 0.8;
+    
+}
+
+.paper:hover
+{
+    transform:scale(1.2);
+    filter: invert(1);
+
+}
+
+.logo
+{
+    height: 50px; width: 50px; border-radius: 50%; float: left; position: relative;
+}
+
+.footer1
+{
+    padding:  1em; text-align: center; background-color: rgb(36, 122, 73); color: whitesmoke; font-size: 1 em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
